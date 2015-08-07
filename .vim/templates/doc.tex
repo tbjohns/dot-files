@@ -1,0 +1,75 @@
+\documentclass{article}
+
+% Packages:
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{mathtools}
+
+% Common symbols:
+\newcommand{\m}[1]{\mathbf{#1}}
+\newcommand{\X}{\m{X}}
+\newcommand{\x}{\m{x}}
+\newcommand{\y}{\m{y}}
+\newcommand{\w}{\m{w}}
+
+% Math commands:
+\newcommand{\reals}{\mathbb{R}}
+\newcommand{\E}[1]{\mathbb{E}\left[#1\right]}
+\newcommand{\ceil}[1]{\left\lceil{#1}\right\rceil}
+\newcommand{\norm}[1]{\left\|#1\right\|}
+\newcommand{\ip}[1]{\left<#1\right>}
+\newcommand{\abs}[1]{\left|#1\right|}
+\newcommand{\sgn}{\operatorname{sgn}}
+\newcommand{\argmin}[1]{\underset{#1}{\text{argmin}} \,}
+\newcommand{\argmax}[1]{\underset{#1}{\text{argmax}} \,}
+\renewcommand{\min}[1]{\underset{#1}{\text{min}} \,}
+\renewcommand{\max}[1]{\underset{#1}{\text{max}} \,}
+\renewcommand{\lim}[1]{\underset{#1}{\text{lim}} \,}
+
+% L1 misc:
+\newcommand{\LOne}{$L_1$}
+\newcommand{\lammax}{\lambda_{\textsc{max}}}
+
+% Theorems, equations, etc:
+\newcommand{\eqnref}[1]{Equation~(\ref{#1})}
+\newcommand{\prbref}[1]{Problem~(\ref{#1})}
+\newcommand{\thmref}[1]{Theorem~\ref{#1}}
+\newcommand{\corref}[1]{Corollary~\ref{#1}}
+\newcommand{\lemref}[1]{Lemma~\ref{#1}}
+\newcommand{\secref}[1]{Section~\ref{#1}}
+\newcommand{\apdxref}[1]{Appendix~\ref{#1}}
+\newcommand{\figref}[1]{Figure~\ref{#1}}
+\newcommand{\assref}[1]{Assumption~\ref{#1}}
+\newcommand{\algref}[1]{Algorithm~\ref{#1}}
+\newcommand{\propref}[1]{Proposition~\ref{#1}}
+\newcommand{\tblref}[1]{Table~\ref{#1}}
+
+\newtheorem{dfn}{Definition}[section]
+\newtheorem{ass}{Assumption}[section]
+\newtheorem{clm}{Claim}[section]
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{cor}[thm]{Corollary}
+\newtheorem{lem}[thm]{Lemma}
+\newtheorem{prop}[thm]{Proposition}
+
+% Skip lines for new paragraphs:
+\usepackage[parfill]{parskip}
+
+% Remove section numbers:
+\setcounter{secnumdepth}{-2}
+
+% Name, title, etc:
+\author{Tyler B. Johnson}
+\title{\LaTeX{} Doc}
+
+\begin{document}
+
+\maketitle
+
+
+
+\end{document}
